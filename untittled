@@ -1,0 +1,13 @@
+//Independent component
+
+Button(props){
+    <Button style={{color:props.color,textColor:props.textcolor}} />
+}
+
+App A
+import Button
+<Button color='red' textColor='green'/>
+
+App B
+import Button
+<Button color='violet' textColor='yellow'/>

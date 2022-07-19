@@ -1,0 +1,22 @@
+                                           REACT DAY-1
+
+Difference between js and reactjs?
+reactjs is library we install it as npm react
+angularjs vs reactjs
+library vs framework
+
+Virtual DOM: blueprint of real DOM
+it has two state previous state and next state
+wheneveer we change any state variable it compare previous state and next state and only changed element will we updated in real DOM  not the whole DOM 
+react also has real DOM  but it will not use it untill it is required
+
+single page application:when we click(mounting) on any other link(component) in page only url and content will change and existing component gets unmounted and also it does not refer to other tab
+we have many different component in one single page when we click on any component(link) it get mounted and other is unmounted 
+//it will not reload again and again only the main content is changed(react docs)
+see wikipedia  it will load again and again
+ex:react docs
+
+JSX:javascript xml
+previously we use DOM manipuation to communicate between js and html
+but in react we can write js code inside html by using {}
+it reduces complexcity of code
